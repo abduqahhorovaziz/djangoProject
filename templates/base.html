@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wimax.dev</title>
+</head>
+<body>
+
+<header>
+    <a href="{% url 'home' %}">Home Page</a>
+    <a href="{% url 'about' %}">About Us Page</a>
+    <a href="{% url 'portfolio' %}">Portfolio Page</a>
+    <a href="{% url 'contact' %}">Contact Page</a>
+
+</header>
+{% block content %}
+{% endblock content %}
+</body>
+</html>
